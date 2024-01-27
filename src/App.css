@@ -1,0 +1,29 @@
+.App, .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.counter{
+  font-size: 2rem;
+  font-weight: 800;
+}
+ 
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 20px;
+}
